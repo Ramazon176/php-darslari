@@ -14,5 +14,11 @@ echo "hozirgi vaqt:" . date("d")."<br>";
 echo "hozirgi vaqt:" . date("H.i.s")."<br>";
 echo "hozirgi vaqt:" . date("H.i.s")."<br>";
 echo "hozirgi vaqt:" . date("H.i.s")."<br>";
+// aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+echo "hozirgi vaqt: ".time()."<br>";
+echo "hozirgi vaqt: ".date("Y.m.d",time())."<br>";
+echo "test <br>";
+echo "hozirgi vaqt: " . date("Y-m-d", strtotime("-14 Years"))."<br>";
+
 
 ?>
