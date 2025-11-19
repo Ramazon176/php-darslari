@@ -1,0 +1,1 @@
+szszheader( string $header [, bool $replace [, int $http_response_code ]]): void
